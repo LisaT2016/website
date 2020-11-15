@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to lightninget lisa 
 
 You can use the [editor on GitHub](https://github.com/LisaT2016/home/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -11,7 +11,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# Projects
 ## Header 2
 ### Header 3
 
@@ -20,7 +20,7 @@ Syntax highlighted code block
 
 1. Numbered
 2. List
-
+# Education Outreach 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
