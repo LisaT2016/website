@@ -25,6 +25,9 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Conten
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 ### Education Outreach 
