@@ -1,15 +1,16 @@
 ## Welcome to lightning lisa 
 
-You can use the [editor on GitHub](https://github.com/LisaT2016/home/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Provided is information relating to experiences learned and services offered.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+un [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Projects 
 
-Projects is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Projects is a lightweight and easy-to-use syntax for styling your writing. It includes conventions f
 
 ```projects 
-Syntax highlighted code block
+Syntax highlighted code bloc
 
 # Projects
 ## Header 2
