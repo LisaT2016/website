@@ -3,8 +3,6 @@
 Provided is information relating to experiences learned and services offered.
 
 
-un [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Projects 
 
 Projects is a lightweight and easy-to-use syntax for styling your writing. It includes conventions f
@@ -38,4 +36,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out. un [Jekyll](https://jekyllrb.com/)
