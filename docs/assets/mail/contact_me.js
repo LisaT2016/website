@@ -22,8 +22,9 @@ $(function () {
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
             var action = $(this).attr("action");
             $.ajax({
-                url: "", // /assets/mail/contact_me.php
-                type: action,
+                url: action, // "/assets/mail/contact_me.php"
+                type: "Post",
+                crossDomain: true,
                 data: {
                     name: name,
                     phone: phone,
@@ -36,7 +37,7 @@ $(function () {
                 headers: {
                   "Accept": "application/json"
                 }
-                cache: false,
+                //cache: false, *took this out
                 success: function () {
                     // Success message
                     $("#success").html("<div class='alert alert-success'>");
