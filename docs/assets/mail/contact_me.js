@@ -22,7 +22,7 @@ $(function () {
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
             var action = $(this).attr("action");
             $.ajax({
-                type: "Post",
+                type: "POST",
                 url: action, // "/assets/mail/contact_me.php"
                 crossDomain: true,
                 data: {
