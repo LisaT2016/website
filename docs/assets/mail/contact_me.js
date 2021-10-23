@@ -22,8 +22,8 @@ $(function () {
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
             var action = $(this).attr("action");
             $.ajax({
-                url: action, // "/assets/mail/contact_me.php"
                 type: "Post",
+                url: action, // "/assets/mail/contact_me.php"
                 crossDomain: true,
                 data: {
                     name: name,
@@ -87,6 +87,8 @@ $(function () {
     $('a[data-toggle="tab"]').click(function (e) {
         e.preventDefault();
         $(this).tab("show");
+     }).done(function() {
+     $('.success').addClass('is-active');
     });
 });
 
