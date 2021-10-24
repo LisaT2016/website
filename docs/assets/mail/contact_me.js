@@ -3,7 +3,7 @@ $("#contactForm").submit(function(e){
   var action = $(this).attr("action");
   $.ajax({
     type: "POST",
-    url: action,
+    url: action="https://getform.io/f/97912516-14fb-4221-97b4-4383e252ef2e",
     crossDomain: true,
     data: new FormData(this),
     dataType: "json",
