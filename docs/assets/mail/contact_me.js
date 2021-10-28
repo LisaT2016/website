@@ -1,4 +1,4 @@
-$("#contactForm").submit(function(e){
+/*$("#contactForm").submit(function(e){
   e.preventDefault();
   var action = $(this).attr("action");
   $.ajax({
@@ -17,9 +17,9 @@ $("#contactForm").submit(function(e){
   }).fail(function() {
      alert('An error occurred! Please try again later.')
   });
-});
+});*/
 
-/*
+
 $(function () {
     $(
         "#ajaxForm input,#ajaxForm textarea,#ajaxForm button"
@@ -45,7 +45,7 @@ $(function () {
             var action = $(this).attr("action");
             $.ajax({
                 type: "POST",
-                url: action, // "/assets/mail/contact_me.php"
+                url: action="https://getform.io/f/97912516-14fb-4221-97b4-4383e252ef2e", // "././assets/mail/contact_me.php"
                 crossDomain: true,
                 data: {
                     name: name,
@@ -113,11 +113,11 @@ $(function () {
      $('.success').addClass('is-active');
     });
 });
-*/
+
 
 /*When clicking on Full hide fail/success boxes */
-/*
+
 $("#name").focus(function () {
     $("#success").html("");
 });
-*/
+
