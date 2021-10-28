@@ -45,7 +45,7 @@ $(function () {
             var action = $(this).attr("action");
             $.ajax({
                 type: "POST",
-                url: action="https://getform.io/f/97912516-14fb-4221-97b4-4383e252ef2e", // "././assets/mail/contact_me.php"
+                url: "https://getform.io/f/97912516-14fb-4221-97b4-4383e252ef2e", // "././assets/mail/contact_me.php"
                 crossDomain: true,
                 data: {
                     name: name,
