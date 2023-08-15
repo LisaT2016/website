@@ -356,15 +356,6 @@
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <div class="form-group">
-                                <!—Service Need input-->
-                                <select class="browser-default custom-select">
-                                  <option selected>Select Your Service Need*</option>
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
-                                <required /select>
-                            </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
                                 <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
@@ -372,6 +363,15 @@
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Service Need input-->
+                                <select class="form-control" class="browser-default custom-select" placeholder="Select Your Service Need *>
+                                  <option selected>Collaboration</option>
+                                  <option value="1">1-on-1</option>
+                                  <option value="2">Community</option>
+                                  <option value="3">Other</option>
+                                <required /select>
+                            </div>
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
                                 <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
